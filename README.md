@@ -1,2 +1,2 @@
-# Music-Game
+# Game
 doing now
