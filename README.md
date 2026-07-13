@@ -32,24 +32,6 @@
 5. 判定失败（按下按键但未命中音符）：仅总按键数 +1
 6. 当 总按键数 - 成功击中数 > 30 时游戏结束
 
-## 硬件接线图
-
-`
-Raspberry Pi Pico         ST7789 Display
--------------            ---------------
-GPIO6  (SCK)   -------->  SCL
-GPIO8  (MOSI)  -------->  SDA
-GPIO7  (DC)    -------->  DC
-GPIO11 (RST)   -------->  RST
-3.3V           -------->  VCC
-GND            -------->  GND
-
-              Buttons
-GPIO2  -------->  Button 1 (Lane 0)
-GPIO1  -------->  Button 2 (Lane 1)
-GPIO0  -------->  Button 3 (Lane 2)
-GPIO14 -------->  Button 4 (Lane 3)
-`
 
 ## 代码结构
 
